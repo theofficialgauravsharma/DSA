@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class GCD {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		int divident = sc.nextInt();
 		int divisor = sc.nextInt();
-
+//logic
 		while (divident % divisor != 0) {
 			int rem = divident % divisor;
 			divident = divisor;
@@ -15,7 +15,5 @@ public class GCD {
 
 		}
 		System.out.println(divisor);
-
 	}
-
 }
